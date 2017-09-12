@@ -1,0 +1,62 @@
+<xml/>
+    <date value="12092017 1000" duration="2"/>
+        <content>
+
+            serge@dmytrienko.fr
+
+        Considérons : http://wwww.toto.fr/index.php&toto=true/#test == cet ensemble forme l'URI
+            - wwww.toto.fr/index.php&toto=true/#test == URN
+            - http://wwww.toto.fr/index.php == URL
+            - wwww.toto.fr == le nom de domaine est transformé en adresse IP par le serveur DNS
+            - http: == c'est le protocole
+            - l'IP est "hostée" par une machine physique que l'on appelle un host
+            - Service == c'est l'adresse IP + port d'écoute
+            - Serveur  == C'est un service qui tourne sur un host qui permet l'execution des scripts et la lecture des ports d'écoute
+            - /index.php == query string
+
+            Les ports les plus utilisés sont le 80 pour le service HTTP (qui fonctionne dans des fichiers RFC) et le port 443 pour le service HTTPS
+            La normalisation du HTML est certifiée par l'IEEE, l'IETF et le W3C
+            On distingue deux types d'adresse IP : l'IPv4 qui n'inclus pas de localisation et l'IPv6 qui l'inclue
+            Les serveurs APACHE et Nginx sont les plus utilisés au monde, ils tournent sous UNIX, il y a un équivalent MS qui est IIS
+
+        Lors d'une communication client serveur, le serveur envoie un fichier texte au client, qui le décode et qui l'affiche comme une page web conventionnelle
+            Par exemple : truc.fr/test.cgi ==> CGI : Common Gateway Interface avec
+                        // test.cgi
+                        // print $query_string
+            "test.cgi" est ce que l'on appelle une commande Perl, Apache va aller localiser cette commande et l'éxecuter afin de renvoyer le résultat au client.
+            Apache utilise des modules afin d'éxecuter les CGI par exemple mod_perl_cgi
+            Le PHP est une version simplifiée de Perl (Pearl Hates Perl)
+
+         Le HTML et le XML utilisent tout deux un fonctionnement balisé, marqué avec < et > il y a des variantes de ces balises <contenu/> que l'on nomme autofermantes et <contenu param="test"/>
+         Un fichier HTML se compose de deux structures majeures :
+                <head>
+                    Contenu
+                </head>
+                <body>
+                    Contenu(bis)
+                </body>
+
+        Création d'un Hello World en HTML de base (/Users/loicbranchereau/Documents/XML-HTML/Cours n°1 - Hello world/hello.html)
+        Création d'une norme XML afin de constituer un log
+        Création d'une BDD no SQL (informations stockées ne respectant pas le protocole SQL)
+        ? SGBR : Système de Gestion des BDD Relationnelles. Pour qu'il soit estampillé SGBR il faut qu'il respecte la norme SQL-92
+            ==> Exemple de prog en SGBDR : MySQL, Postgres, Oracle
+        Utilisation de EasyPHP en localhost, connexion client (internet explorer= requête sur l'URL localhost)-serveur
+            Client ==> IE (->transforme la requête "127.0.0.1" en "http://127.0.0.1:80")
+
+                    // HEADER :
+                    Si le serveur Apache répond OK à la requête : 200
+                    Si le serveur ne trouve pas : 404
+                    Si le serveur est malade : 500
+
+                    //DATA :
+                    Le serveur enverra le code HTML dans la partie DATA
+        Utilisation de Telnet (ouverture en DOS de telnet 127.0.0.1 80 ou de n'importe quel site) --> "GET / "retour" "retour"
+        Dans le fichier "apache.conf" on trouve :
+            <DocumentRoot"C:/test/">
+            </DocumentRoot>
+
+        L'objectif est de créer un script PHP qui va jouer le rôle d'interface entre le fichier XML et la BDD en SGBDR.
+        </content>
+
+</xml>
