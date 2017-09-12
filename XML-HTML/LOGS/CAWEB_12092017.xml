@@ -52,7 +52,7 @@
                     //DATA :
                     Le serveur enverra le code HTML dans la partie DATA
         Utilisation de Telnet (ouverture en DOS de telnet 127.0.0.1 80 ou de n'importe quel site) --> "GET / "retour" "retour"
-        Dans le fichier "apache.conf" on trouve :
+        Dans le fichier "apache.conf" on trouve : //
             <DocumentRoot"C:/test/">
             </DocumentRoot>
 
