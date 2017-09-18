@@ -4,6 +4,8 @@
 
             serge@dmytrienko.fr
 
+            pour compléter : https://developer.mozilla.org/fr/Apprendre/Commencer_avec_le_web/Le_fonctionnement_du_Web?fref=gc&dti=273445003154944
+
         Considérons : http://wwww.toto.fr/index.php&toto=true/#test == cet ensemble forme l'URI
             - wwww.toto.fr/index.php&toto=true/#test == URN
             - http://wwww.toto.fr/index.php == URL
