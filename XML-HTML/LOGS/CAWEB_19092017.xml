@@ -1,10 +1,51 @@
-<xml/>
+<?xml version="1.0">
 <date value="19092017 1400" duration="2"/>
 <content>
 
     caweb.dmytrienko.fr
 
     serge@dmytrienko.fr
+
+        //CHAPITRE 2 : XHTML & XML//
+
+    Pour réaliser un fichier XML, on utilise un éditeur de texte (type NOTEPAD ++) va enregistrer uniquement ce qui a été tapé, sans encodage (texte brut).
+    A contrario, Word va ajouter des surcouches (font, couleur)==> A proscrire donc.
+
+            #Vocabulaire
+
+    <...> cela s'appelle un élément (balise) : il est toujours composé d'une balise ouvrante et d'une balise fermante (</>)
+    L'encodage défini ce qui sera contenu dans la balise.
+    Les seules données comprises par un CPU sont les 0 et les 1, un 0 ou un 1 constitue un bit. Le processeur les packe par packets de 8 (octet ou byte)
+    1 caractère est codé par un octet. Sur un octets on peut mettre 256 char (2^8). Cette encodage sur 256 charactère s'appelle l'ASCII, c'est le premier
+    encodage. ASCII ne comportait pas les accents ni les alphabets étrangers, on a donc créé l'encodage ISO-8859-1 ou latin-1.
+    Cela ne suffisait pas, la communauté à ainsi décidé d'encoder sur 4 octets : UTF-8
+
+            #XHTML
+
+    Un document XML laisse le choix des balises. Le XHTML est une sous famille du XML, il ne laisse plus le choix dans les balises, elles sont définies.
+    Les normes qui définissent les noms des balises sont inscrites dans un DTD (document type definition)
+
+    Il y a des règles à respecter :
+
+        1) Un élément englobe tout le document (<content> dans notre cas </content>) Au sein de cet élément, on peut ouvrir d'autres balises que l'on doit
+        refermer à l'intérieur. Il ne faut pas utiliser de caractère qui ne sont pas dans le charset UTF-8
+        On utilise la balise <?xml version="1.0"> où version est un attribut
+        Lorsqu'une balise ne contient pas de texte, on peut la refermer de suite tel que <date format="HH:MM:SS" />
+
+        Les browsers utilisent des interpreteurs = IE : Trident(qui se base sur le MSXML), MOZILLA : Gecko (qui se base sur le W3C), SAFARI : Khtml(presque basé sur le W3C)
+
+            #XHTML Kesako ?
+
+    Un document XHTML doit obligatoirement contenir les balises :
+
+                        <HTML>
+                            <HEAD>
+
+                            </HEAD>
+                            <BODY>
+
+                            </BODY>
+                        </HTML>
 
 
 </content>

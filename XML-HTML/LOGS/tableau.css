@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    border: solid 1px black;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+td {
+    border: solid 1px black;
+    text-align: center;
+    background-color: dodgerblue;
+
+}
+
+th{
+    border: solid 1px black;
+    text-align: center;
+    background-color: coral;
+
+}
