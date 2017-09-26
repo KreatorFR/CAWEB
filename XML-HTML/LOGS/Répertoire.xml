@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+        <repertoire>
+
+            <liste_personnes>
+                <personne>
+                    <nom name="Pierre"></nom>
+                    <prenom name="Martin"></prenom>
+                    <liste_telephone>
+                        <tel type="portable" num="06 12 34 56 78"></tel>
+                        <tel type="fixe" num="03 88 12 23 78"></tel>
+                    </liste_telephone>
+                    <mail adresse="pierre.martin@xml.fr"></mail>
+                </personne>
+                <personne>
+                    <nom name="Paul"></nom>
+                    <prenom name="Dupont"></prenom>
+                    <liste_telephone>
+                        <tel type="portable" num="06 12 34 56 78"></tel>
+                        <tel type="fixe" num="03 88 12 23 78"></tel>
+                    </liste_telephone>
+                    <mail adresse="paul.dupont@xml.fr"></mail>
+                </personne>
+                <personne>
+                    <nom name="Jacques"></nom>
+                    <prenom name="Ducon"></prenom>
+                    <liste_telephone>
+                        <tel type="portable" num="06 12 34 56 78"></tel>
+                        <tel type="fixe" num="03 88 12 23 78"></tel>
+                    </liste_telephone>
+                    <mail adresse="jacques.ducon@xml.fr"></mail>
+                </personne>
+            </liste_personnes>
+
+        </repertoire>

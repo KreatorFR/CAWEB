@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- un bucheron se promène dans la forêt, chaque arbre marqué qu'il croise, il lui appose une date de coupe, il croise
+quatre arbres un hêtre qui est marqué, un bouleau qui ne l'est pas, un chêne qui l'est et un sapin qui ne l'est pas -->
+
+    <foret>
+        <arbre marqué="true" type="hêtre" date_de_coupe="25/10/2017" format="DD/MM/YYYY"/>
+        <arbre marqué="false" type="bouleau" date_de_coupe="25/10/2017" format="DD/MM/YYYY"/>
+        <arbre marqué="true" type="chêne" date_de_coupe="14/11/2017" format="DD/MM/YYYY"/>
+        <arbre marqué="false" type="sapin"/>
+    </foret>

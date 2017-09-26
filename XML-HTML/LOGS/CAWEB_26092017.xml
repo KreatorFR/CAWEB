@@ -1,7 +1,9 @@
-<?xml version="1.0">
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
         <monde nom="Earth">
+
             <liste_continents>
+
                 <continent nom="Europe">
                     <liste_pays>
                         <pays nom="France" capitale="Paris"></pays>
@@ -9,6 +11,7 @@
                         <pays nom="Italie" capitale="Rome"></pays>
                     </liste_pays>
                 </continent>
+
                 <continent nom="Afrique">
                     <liste_pays>
                         <pays nom="Maroc" capitale="Rabbat"></pays>
@@ -16,6 +19,7 @@
                         <pays nom="Egypte" capitale="Le Caire"></pays>
                     </liste_pays>
                 </continent>
+
                 <continent nom="Asie">
                     <liste_pays>
                         <pays nom="Chine" capitale="Pékin"></pays>
@@ -23,5 +27,13 @@
                         <pays nom="Corée Du Sud" capitale="Séoul"></pays>
                     </liste_pays>
                 </continent>
+
             </liste_continents>
+
+            <liste_oceans>
+                <ocean nom="atlantique"></ocean>
+                <ocean nom="pacifique"></ocean>
+                <ocean nom="indien"></ocean>
+            </liste_oceans>
+
         </monde>
