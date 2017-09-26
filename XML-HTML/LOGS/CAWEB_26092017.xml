@@ -1,0 +1,21 @@
+<?xml version="1.0">
+
+        <monde nom="Earth">
+            <liste_continents>
+                <continent nom="Europe">
+                    <pays nom="France" capitale="Paris"></pays>
+                    <pays nom="Allemagne" capitale="Berlin"></pays>
+                    <pays nom="Italie" capitale="Rome"></pays>
+                </continent>
+                <continent nom="Afrique">
+                    <pays nom="Maroc" capitale="Rabbat"></pays>
+                    <pays nom="Afrique Du Sud" capitale="Johannesburg"></pays>
+                    <pays nom="Egypte" capitale="Le Caire"></pays>
+                </continent>
+                <continent nom="Asie">
+                    <pays nom="Chine" capitale="Pékin"></pays>
+                    <pays nom="Japon" capitale="Tokyo"></pays>
+                    <pays nom="Corée Du Sud" capitale="Séoul"></pays>
+                </continent>
+            </liste_continents>
+        </monde>
